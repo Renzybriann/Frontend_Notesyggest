@@ -1,7 +1,7 @@
 // src/api.js
 
 // Replace this with your actual Railway deployed backend URL
-const BASE_URL = 'https://backendnotesyggest-production.up.railway.app/';  // Update this URL
+const BASE_URL = 'https://backendnotesyggest-production.up.railway.app';  // Update this URL
 
 export const getNotes = async () => {
   const response = await fetch(`${BASE_URL}/notes`);
